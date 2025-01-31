@@ -1,4 +1,35 @@
 const personnelData = [
+
+
+
+
+
+    {
+        name: "المستشارة ايمان جمال",
+        role: " رئيس الكيان",
+        image: "WhatsApp Image 2025-01-26 at 6.11.53 PM (1).jpeg",
+        social: {
+            facebook:"https://www.facebook.com/share/19pTVrwyU8/"
+        }
+    },
+
+
+
+
+
+
+
+    {
+        name: "الاعلامي ايمن ناصر",
+        role: " امين الاعلام للكيان",
+        image: "WhatsApp Image 2025-01-26 at 6.09.39 PM (2).jpeg",
+        social: {
+            facebook:"https://www.facebook.com/share/198GaxoCuG/"
+           
+        }
+    },
+
+
     {
         name: "المهندس عمرو حلمي ",
         role: "نائب رئيس الكيان",
@@ -15,23 +46,8 @@ const personnelData = [
             facebook:"https://www.facebook.com/share/1FiGURuc39/"
         }
     },
-    {
-        name: "المستشارة ايمان جمال",
-        role: " رئيس الكيان",
-        image: "WhatsApp Image 2025-01-26 at 6.11.53 PM (1).jpeg",
-        social: {
-            facebook:"https://www.facebook.com/share/19pTVrwyU8/"
-        }
-    },
-    {
-        name: "الاعلامي ايمن ناصر",
-        role: " امين الاعلام للكيان",
-        image: "WhatsApp Image 2025-01-26 at 6.09.39 PM (2).jpeg",
-        social: {
-            facebook:"https://www.facebook.com/share/198GaxoCuG/"
-           
-        }
-    }
+
+   
 ];
 
 function createPersonnelCard(person) {
